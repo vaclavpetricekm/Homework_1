@@ -151,7 +151,7 @@ def get_completion_from_messages(messages, model="gpt-4o"):
 if __name__ == "__main__":
     messages = [
         {"role": "system", "content": "Jsi užitečný AI asistent. Odpovídej vždy česky."},
-        {"role": "user", "content": "jaké je teplta v Barceloně"},
+        {"role": "user", "content": "jaká je teplota v Barceloně"},
     ]
     response = get_completion_from_messages(messages)
     print("--- Celá odpověď: ---")
